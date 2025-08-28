@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La casa de Pastel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <form id="FormPastel" action="#" method="post">
+        <label for="Nome">Nome do Cliente: </label>
+        <input type="text" name="Nome" id="Nome" placeholder="Seu Nome">
+        <br><br><br>
+
+        <label for="cpf">CPF: </label>
+        <input type="text" name="cpf" id="cpf" placeholder="Seu CPF">
+        <br><br><br>
+
+        <label for="endereco">Endereço: </label>
+        <input type="text" name="endereço" id="endereco" placeholder="Seu Endereço">
+        <br><br><br>
+
+        <label for="cardapioo">Pastel: </label>
+            <select id="cardapio" name="cardapio"></select>
+        <br><br><br>
+
+        <label for="tamanho">Tamanho: </label>
+            <select id="tamanho" name="tamanho"></select>
+        <br><br><br>
+
+        <fieldset>
+            <legend>Forma de Pagamento: </legend>
+
+            <label>
+                <input type="radio" name="pagamento" value="pix">
+                Pix
+            </label>
+
+            <label>
+                <input type="radio" name="pagamento" value="debito">
+                Débito
+            </label>
+
+            <label>
+                <input type="radio" name="pagamento" value="credito">
+                Crédito
+            </label>
+
+            <label>
+                <input type="radio" name="pagamento" value="dinheiro">
+                Dinheiro
+            </label>
+        </fieldset>
+
+        <h2>Informações Importantes</h2>
+
+        <label for="enderecoo">Endereço do Estabelecimento</label>
+        <input type="text" id="enderecoo" name="endereçoo" value="Rua Lisboa, 435 - Jardim Panorama" readonly>
+        
+        <br><br><br>
+
+        <label for="numeroo">Número de Telefone do Estabelecimento</label>
+        <input type="text" id="numeroo" name="numeroo" value="(45)9914501514" readonly>
+    </form>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
